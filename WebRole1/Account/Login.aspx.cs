@@ -20,17 +20,17 @@ public partial class Account_Login : System.Web.UI.Page
             //string strCaptcha = objUser.GetCaptchaCode();
             //CaptchaCodeValue.Text = strCaptcha;
 
-            if (objUser != null)
-                objUser = null;
+            /*if (objUser != null)
+                objUser = null;*/
         }
     }
     protected void LoginButton_Click(object sender, EventArgs e)
     {
-        string strUserame = UserName.Text;
+        /*string strUserame = UserName.Text;
         string strPassword = Password.Text;
         string strCaptcha = UserEntry.Text;
 
-        /*DL_Employee objUser = new DL_Employee();
+        DL_Employee objUser = new DL_Employee();
         if (strCaptcha.ToUpper() == CaptchaCodeValue.Text.ToUpper())
         {   
             bool blnAccess = objUser.CheckUserAccess(strUserame, strPassword, strCaptcha);
