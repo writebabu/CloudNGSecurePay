@@ -46,7 +46,7 @@
                     </p>
                     <p>
                         <asp:CheckBox ID="RememberMe" runat="server"/>
-                        <asp:Label ID="RememberMeLabel" runat="server" AssociatedControlID="RememberMe" CssClass="inline">Keep me logged in</asp:Label>
+                        <asp:Label ID="RememberMeLabel" runat="server" AssociatedControlID="RememberMe" CssClass="inline">Keep me logged</asp:Label>
                     </p>
                 </fieldset>
                 <p class="submitButton">
