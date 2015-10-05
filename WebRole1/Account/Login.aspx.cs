@@ -5,8 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Drawing;
-using IntranetDL;
-using IntranetPL;
+//using IntranetDL;
+//using IntranetPL;
 using System.Web.Security;
 
 public partial class Account_Login : System.Web.UI.Page
@@ -16,9 +16,9 @@ public partial class Account_Login : System.Web.UI.Page
         //RegisterHyperLink.NavigateUrl = "Register.aspx?ReturnUrl=" + HttpUtility.UrlEncode(Request.QueryString["ReturnUrl"]);
         if (!IsPostBack)
         {
-            DL_Employee objUser = new DL_Employee();
-            string strCaptcha = objUser.GetCaptchaCode();
-            CaptchaCodeValue.Text = strCaptcha;
+            //DL_Employee objUser = new DL_Employee();
+            //string strCaptcha = objUser.GetCaptchaCode();
+            //CaptchaCodeValue.Text = strCaptcha;
 
             if (objUser != null)
                 objUser = null;
@@ -30,7 +30,7 @@ public partial class Account_Login : System.Web.UI.Page
         string strPassword = Password.Text;
         string strCaptcha = UserEntry.Text;
 
-        DL_Employee objUser = new DL_Employee();
+        /*DL_Employee objUser = new DL_Employee();
         if (strCaptcha.ToUpper() == CaptchaCodeValue.Text.ToUpper())
         {   
             bool blnAccess = objUser.CheckUserAccess(strUserame, strPassword, strCaptcha);
@@ -49,6 +49,6 @@ public partial class Account_Login : System.Web.UI.Page
             LoginUserValidationSummary.HeaderText = "Please enter the Captcha code correctly as displayed. Kindly try again.";
         }
         if (objUser != null)
-            objUser = null;
+            objUser = null;*/
     }
 }
