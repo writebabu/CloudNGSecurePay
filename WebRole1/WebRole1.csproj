@@ -168,7 +168,60 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="HP.master" />
+    <Content Include="includes\fonts\verizonapex-bold-webfont.eot" />
+    <Content Include="includes\fonts\verizonapex-bold-webfont.ttf" />
+    <Content Include="includes\fonts\verizonapex-bold-webfont.woff" />
+    <Content Include="includes\fonts\verizonapex-book-webfont.eot" />
+    <Content Include="includes\fonts\verizonapex-book-webfont.ttf" />
+    <Content Include="includes\fonts\verizonapex-book-webfont.woff" />
+    <Content Include="includes\fonts\verizonapex-bookitalic-webfont.eot" />
+    <Content Include="includes\fonts\verizonapex-bookitalic-webfont.ttf" />
+    <Content Include="includes\fonts\verizonapex-bookitalic-webfont.woff" />
+    <Content Include="App_Code\BasePage.cs.exclude" />
+    <Content Include="App_Code\Util.cs.exclude" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="includes\css\960.css" />
+    <Content Include="includes\css\bootstrap-theme.css" />
+    <Content Include="includes\css\bootstrap-theme.min.css" />
+    <Content Include="includes\css\bootstrap.css" />
+    <Content Include="includes\css\bootstrap.min.css" />
+    <Content Include="includes\css\buttons.css" />
+    <Content Include="includes\css\container.css" />
+    <Content Include="includes\css\ewebintranet.css" />
+    <Content Include="includes\css\global.css" />
+    <Content Include="includes\css\handheld.css" />
+    <Content Include="includes\css\jquery.modalpopup.css" />
+    <Content Include="includes\css\model_popup.css" />
+    <Content Include="includes\css\reset.css" />
+    <Content Include="includes\css\tablet.css" />
+    <Content Include="includes\css\text.css" />
+    <Content Include="includes\css\ui-bootstrap-csp.css" />
+    <Content Include="includes\css\vzomegalight.css" />
+    <Content Include="includes\fonts\verizonapex-bold-webfont.svg" />
+    <Content Include="includes\fonts\verizonapex-book-webfont.svg" />
+    <Content Include="includes\fonts\verizonapex-bookitalic-webfont.svg" />
+    <Content Include="includes\js\components.js" />
+    <Content Include="includes\js\container-min.js" />
+    <Content Include="includes\js\dhtmlwindow.js" />
+    <Content Include="includes\js\FacilitiesSlider.js" />
+    <Content Include="includes\js\fadeslideshow.js" />
+    <Content Include="includes\js\jquery.galleriffic.js" />
+    <Content Include="includes\js\jquery.js" />
+    <Content Include="includes\js\modal.js" />
+    <Content Include="includes\js\modalpopup.js" />
+    <Content Include="includes\js\modernizr.js" />
+    <Content Include="includes\js\plugin.js" />
+    <Content Include="includes\js\popup.js" />
+    <Content Include="includes\js\popupwindow.js" />
+    <Content Include="includes\js\slider.js" />
+    <Content Include="includes\js\yahoo-dom-event.js" />
+    <Content Include="includes\js\yahoo-dom-event1.js" />
+    <Content Include="includes\js\yahoo-dom-event_assign.js" />
+    <Content Include="page_includes\global_footer.html" />
+    <Content Include="page_includes\global_header.html" />
+    <Content Include="page_includes\global_header2013.html" />
+    <Content Include="page_includes\popup.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -211,6 +264,7 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Site.Mobile.Master" />
+    <Content Include="SecurePay.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -223,6 +277,11 @@
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Content Include="App_Code\FindLink.cs" />
+    <Content Include="App_Code\SQLHelper.cs" />
+    <Content Include="App_Code\UserSession.cs" />
+    <Content Include="App_Code\BL\BL_Employee.cs" />
+    <Content Include="App_Code\DL\DL_Employee.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -249,7 +308,18 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HP.master.cs">
+      <DependentUpon>HP.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecurePay.Master.cs">
+      <DependentUpon>SecurePay.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SecurePay.Master.designer.cs">
+      <DependentUpon>SecurePay.Master</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

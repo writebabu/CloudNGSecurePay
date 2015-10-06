@@ -29,6 +29,7 @@ namespace WebRole1
         }
         protected void LoginButton_Click(object sender, EventArgs e)
         {
+            Response.Redirect("../Default.aspx");
             /*string strUserame = UserName.Text;
             string strPassword = Password.Text;
             string strCaptcha = UserEntry.Text;
